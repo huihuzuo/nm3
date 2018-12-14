@@ -1,0 +1,185 @@
+{
+  "input": [
+    {
+      "code": "LXDM",
+      "name": "DM",
+      "label": "路线编码",
+      "type": "single",
+      "capacity": "LXDM",
+      "express": "="
+    },
+    {
+      "name": "LXMC",
+      "code": "LXMC",
+      "label": "路线名称",
+      "type": "single",
+      "express": "LIKE"
+    },
+    {
+      "firstName": "QDZH",
+      "lastName": "ZDZH",
+      "code": "QDZH",
+      "name": "polyLineZhfw",
+      "label": "桩号范围",
+      "type": "between",
+      "express": "number-between>"
+    },
+    {
+      "firstName": "START_LMKD",
+      "lastName": "END_LMKD",
+      "name": "LMKD",
+      "code": "LMKD",
+      "label": "路面宽度",
+      "type": "betweens",
+      "line": "splitLine",
+      "express": "number-between"
+    },
+    {
+      "firstName": "START_LJKD",
+      "lastName": "END_LJKD",
+      "name": "LJKD",
+      "code": "LJKD",
+      "label": "路基宽度",
+      "type": "betweens",
+      "express": "number-between"
+    }
+  ],
+  "check": [
+    {
+      "name": "JSDJ_KEY",
+      "code": "JSDJ_KEY",
+      "label": "技术等级",
+      "type": "single",
+      "child": [
+        {
+          "title": "",
+          "child": [
+            {
+              "name": "10",
+              "label": "高速公路"
+            },
+            {
+              "name": "11",
+              "label": "一级公路"
+            },
+            {
+              "name": "12",
+              "label": "二级公路"
+            },
+            {
+              "name": "13",
+              "label": "三级公路"
+            },
+            {
+              "name": "14",
+              "label": "四级公路"
+            },
+            {
+              "name": "30",
+              "label": "等外公路"
+            }
+          ]
+        }
+      ],
+      "express": "IN"
+    },
+    {
+      "name": "DM_KEY",
+      "code": "DM_KEY",
+      "label": "地貌",
+      "type": "single",
+      "child": [
+        {
+          "title": "",
+          "child": [
+            {
+              "name": "1",
+              "label": "山岭"
+            },
+            {
+              "name": "2",
+              "label": "重丘"
+            },
+            {
+              "name": "3",
+              "label": "微丘"
+            },
+            {
+              "name": "4",
+              "label": "平原"
+            }
+          ]
+        }
+      ],
+      "express": "IN"
+    },
+    {
+      "name": "MCLX_KEY",
+      "code": "MCLX_KEY",
+      "label": "路面类型",
+      "type": "group",
+      "child": [
+        {
+          "title": "有铺装路面",
+          "child": [
+            {
+              "name": "11",
+              "label": "沥青混凝土"
+            },
+            {
+              "name": "12",
+              "label": "水泥混凝土"
+            }
+          ]
+        },
+        {
+          "title": "简易铺装路面",
+          "child": [
+            {
+              "name": "21",
+              "label": "沥青贯入式"
+            },
+            {
+              "name": "22",
+              "label": "沥青碎石"
+            },
+            {
+              "name": "23",
+              "label": "沥青表面处治"
+            }
+          ]
+        },
+        {
+          "title": "未铺装路面",
+          "child": [
+            {
+              "name": "31",
+              "label": "砂石路面"
+            },
+            {
+              "name": "32",
+              "label": "石质路面"
+            },
+            {
+              "name": "33",
+              "label": "渣石路面"
+            },
+            {
+              "name": "34",
+              "label": "砖铺路面"
+            },
+            {
+              "name": "35",
+              "label": "砼预制块"
+            },
+            {
+              "name": "36",
+              "label": "无路面"
+            }
+          ]
+        }
+      ],
+      "express": "IN"
+    }
+  ]
+}

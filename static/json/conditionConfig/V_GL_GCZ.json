@@ -1,0 +1,185 @@
+{
+  "input": [
+    {
+      "name": "DM",
+      "label": "路线编码",
+      "type": "single",
+      "code": "LXBM",
+      "capacity": "LXDM",
+      "express": "="
+    },
+    {
+      "name": "LXMC",
+      "label": "路线名称",
+      "type": "single",
+      "code": "LXMC",
+      "express": "LIKE"
+    },
+    {
+      "firstName": "QDZH",
+      "lastName": "ZDZH",
+      "code": "GCZZXZH",
+      "name": "zhfw",
+      "label": "桩号范围",
+      "type": "between",
+      "express": "number-between"
+    },
+    {
+      "code": "GCZBH",
+      "label": "观测站编码",
+      "type": "single",
+      "nameCol": "GCZMC",
+      "valCol": "GCZBH",
+      "capacity": "capacityDM",
+      "name": "DM",
+      "express": "LIKE"
+    },
+    {
+      "name": "GCZMC",
+      "label": "观测站名称",
+      "type": "single",
+      "code": "GCZMC",
+      "express": "LIKE"
+    }
+  ],
+  "check": [
+    {
+      "name": "CONNS",
+      "code": "CONNS",
+      "label": "在线状态",
+      "type": "single",
+      "child": [
+        {
+          "title": "",
+          "child": [
+            {
+              "name": "1",
+              "label": "在线"
+            },
+            {
+              "name": "0",
+              "label": "离线"
+            }
+          ]
+        }
+      ],
+      "express": "IN"
+    },
+    {
+      "name": "GCZLX",
+      "code": "GCZLX",
+      "label": "交调站类型",
+      "type": "single",
+      "child": [
+        {
+          "title": "",
+          "child": [
+            {
+              "name": "L",
+              "label": "连续"
+            },
+            {
+              "name": "J",
+              "label": "间隙"
+            },
+            {
+              "name": "B",
+              "label": "比重"
+            }
+          ]
+        }
+      ],
+      "express": "IN"
+    },
+    {
+      "name": "GCZDJ",
+      "code": "GCZDJ",
+      "label": "交调站等级",
+      "type": "single",
+      "child": [
+        {
+          "title": "",
+          "child": [
+            {
+              "name": "0",
+              "label": "国家"
+            },
+            {
+              "name": "1",
+              "label": "省级"
+            },
+            {
+              "name": "2",
+              "label": "试用"
+            }
+          ]
+        }
+      ],
+      "express": "IN"
+    },
+    {
+      "name": "DCFF",
+      "code": "DCFF",
+      "label": "观测方式",
+      "type": "single",
+      "child": [
+        {
+          "title": "",
+          "child": [
+            {
+              "name": "00",
+              "label": "设备观测"
+            },
+            {
+              "name": "10",
+              "label": "人工观测"
+            },
+            {
+              "name": "21",
+              "label": "收费数据转换"
+            }
+          ]
+        }
+      ],
+      "express": "IN"
+    },
+    {
+      "name": "JSDJ",
+      "code": "JSDJ",
+      "label": "技术等级",
+      "type": "single",
+      "child": [
+        {
+          "title": "",
+          "child": [
+            {
+              "name": "0",
+              "label": "高速公路"
+            },
+            {
+              "name": "1",
+              "label": "一级公路"
+            },
+            {
+              "name": "2",
+              "label": "二级公路"
+            },
+            {
+              "name": "3",
+              "label": "三级公路"
+            },
+            {
+              "name": "4",
+              "label": "四级公路"
+            },
+            {
+              "name": "5",
+              "label": "等外公路"
+            }
+          ]
+        }
+      ],
+      "express": "IN"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "code": "200",
+  "data": [
+    {
+      "label": "路网事件",
+      "count": 12,
+      "key": "Luwan",
+      "unit": ""
+    },
+    {
+      "label": "互联网事件",
+      "count": 23,
+      "key": "Gaode",
+      "unit": ""
+    }
+  ],
+  "msg": "",
+  "success": true
+}

@@ -1,0 +1,15 @@
+{
+  "layerName": "V_GL_GCZ",
+  "field1_name": "观测站名称",
+  "field1_value": "GCZMC",
+  "field2_name": "观测站编号",
+  "field2_value": "GCZBH",
+  "field3_name": "所在路线",
+  "field3_value": "LXBH",
+  "field4_name": "路线名称",
+  "field4_value": "LXMC",
+  "field5_name": "观测站类型",
+  "field5_value": "GCZLX_VALUE",
+  "field6_name": "观测站等级",
+  "field6_value": "GCZDJ_VALUE"
+}

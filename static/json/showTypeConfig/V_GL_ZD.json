@@ -1,0 +1,9 @@
+{
+  "ROAD_NAME":"name",
+  "ROAD_ID":"code",
+  "START_STAKE":"startZh",
+  "END_STAKE":"endZh",
+  "BLOCK_TYPE_ID":"eventType",
+  "DETECT_TIME":"startTime",
+  "ESTIMATE_TIME":"recoveryTime "
+}

@@ -1,0 +1,122 @@
+{
+  "input": [
+    {
+      "code": "LXDM",
+      "name": "DM",
+      "label": "路线编码",
+      "type": "single",
+      "capacity": "LXDM",
+      "express": "="
+    },
+    {
+      "name": "LXMC",
+      "label": "路线名称",
+      "type": "single",
+      "code": "LXMC",
+      "express": "LIKE"
+    },
+    {
+      "firstName": "QDZH",
+      "lastName": "ZDZH",
+      "code": "QDZH",
+      "name": "polyLineZhfw",
+      "label": "桩号范围",
+      "type": "between",
+      "express": "number-between>"
+    },
+    {
+      "name": "zblx",
+      "label": "指标类型",
+      "type": "zb_type",
+      "code": "zblx",
+      "child": [
+        {
+          "type": "PQI"
+        },
+        {
+          "type": "PCI"
+        },
+        {
+          "type": "RQI"
+        },
+        {
+          "type": "RDI"
+        }
+      ]
+    },
+    {
+      "name": "YEAR",
+      "label": "数据年份",
+      "type": "data_year",
+      "code": "YEAR",
+      "express": "="
+    }
+  ],
+  "check": [
+    {
+      "name": "SXXFX",
+      "code": "SXXFX",
+      "label": "路线方向",
+      "type": "single",
+      "child": [
+        {
+          "title": "",
+          "child": [
+            {
+              "name": "1",
+              "label": "上行"
+            },
+            {
+              "name": "2",
+              "label": "下行"
+            },
+            {
+              "name": "3",
+              "label": "双向"
+            },
+            {
+              "name": "4",
+              "label": "匝道"
+            }
+          ]
+        }
+      ],
+      "express": "IN"
+    },
+    {
+      "name": "GRADE",
+      "code": "GRADE",
+      "label": "检测等级",
+      "type": "single",
+      "child": [
+        {
+          "title": "",
+          "child": [
+            {
+              "name": "1",
+              "label": "优"
+            },
+            {
+              "name": "2",
+              "label": "良"
+            },
+            {
+              "name": "3",
+              "label": "中"
+            },
+            {
+              "name": "4",
+              "label": "次"
+            },
+            {
+              "name": "5",
+              "label": "差"
+            }
+          ]
+        }
+      ],
+      "express": "lkjc-IN",
+      "echo":"zblx"
+    }
+  ]
+}

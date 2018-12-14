@@ -1,0 +1,359 @@
+{
+  "input": [
+    {
+      "code": "ROAD_ID",
+      "name": "DM",
+      "label": "路线编码",
+      "type": "single",
+      "capacity": "LXDM",
+      "express": "="
+    },
+    {
+      "name": "ROAD_NAME",
+      "label": "路线名称",
+      "type": "single",
+      "code": "ROAD_NAME",
+      "express": "LIKE"
+    },
+    {
+      "firstName": "QDZH",
+      "lastName": "ZDZH",
+      "code": "QDZH",
+      "name": "zhfw",
+      "label": "桩号范围",
+      "type": "between",
+      "express": "number-between"
+    },
+    {
+      "name": "UNIT_NAME",
+      "label": "上报单位",
+      "type": "single",
+      "code": "UNIT_NAME",
+      "express": "LIKE"
+    },
+    {
+      "firstName": "DETECT_TIME",
+      "lastName": "RESUME_TIME",
+      "name": "zdsjfw",
+      "code": "DETECT_TIME",
+      "label": "阻断时间范围",
+      "type": "timeBetween",
+      "express": "time-between"
+    }
+  ],
+  "check": [
+    {
+      "name": "JSDJ_KEY",
+      "code": "JSDJ_KEY",
+      "label": "技术等级",
+      "type": "single",
+      "child": [
+        {
+          "child": [
+            {
+              "name": "10",
+              "label": "高速公路"
+            },
+            {
+              "name": "11",
+              "label": "一级公路"
+            },
+            {
+              "name": "12",
+              "label": "二级公路"
+            },
+            {
+              "name": "13",
+              "label": "三级公路"
+            },
+            {
+              "name": "14",
+              "label": "四级公路"
+            },
+            {
+              "name": "30",
+              "label": "等外公路"
+            }
+          ]
+        }
+      ],
+      "express": "IN"
+    },
+    {
+      "name": "BLOCK_TYPE",
+      "code": "BLOCK_TYPE",
+      "label": "阻断类型",
+      "type": "single",
+      "child": [
+        {
+          "child": [
+            {
+              "name": "1",
+              "label": "普通路况"
+            },
+            {
+              "name": "2",
+              "label": "桥梁阻断"
+            },
+            {
+              "name": "3",
+              "label": "隧道阻断"
+            }
+          ]
+        }
+      ],
+      "express": "IN"
+    },
+    {
+      "name": "NEI_DISID_LIST",
+      "code": "NEI_DISID_LIST",
+      "label": "是否跨省",
+      "type": "single",
+      "child": [
+        {
+          "child": [
+            {
+              "name": true,
+              "label": "是"
+            },
+            {
+              "name": false,
+              "label": "否"
+            }
+          ]
+        }
+      ],
+      "express": "NULL"
+    },
+    {
+      "name": "recover_status",
+      "code": "recover_status",
+      "label": "阻断状态",
+      "type": "single",
+      "child": [
+        {
+          "child": [
+            {
+              "name": "1",
+              "label": "已恢复"
+            },
+            {
+              "name": "0",
+              "label": "未恢复"
+            }
+          ]
+        }
+      ],
+      "express": "IN"
+    },
+    {
+      "name": "BLOCK_REASON_ID_1",
+      "code": "BLOCK_REASON_ID_1",
+      "label": "突发性阻断",
+      "type": "group",
+      "child": [
+        {
+          "title": "地质灾害",
+          "child": [
+            {
+              "name": "117",
+              "label": "地震"
+            },
+            {
+              "name": "118",
+              "label": "海啸"
+            },
+            {
+              "name": "113",
+              "label": "洪水"
+            },
+            {
+              "name": "114",
+              "label": "泥石流"
+            },
+            {
+              "name": "111",
+              "label": "崩塌"
+            },
+            {
+              "name": "112",
+              "label": "滑坡"
+            },
+            {
+              "name": "115",
+              "label": "地面塌陷、沉降或开裂"
+            },
+            {
+              "name": "119",
+              "label": "其他"
+            }
+          ]
+        },
+        {
+          "title": "恶劣天气",
+          "child": [
+            {
+              "name": "131",
+              "label": "降雨(积水)"
+            },
+            {
+              "name": "136",
+              "label": "台风"
+            },
+            {
+              "name": "133",
+              "label": "降雪(积雪)"
+            },
+            {
+              "name": "132",
+              "label": "雾霾"
+            },
+            {
+              "name": "138",
+              "label": "沙尘"
+            },
+            {
+              "name": "139",
+              "label": "冰雹"
+            },
+            {
+              "name": "116",
+              "label": "大雪"
+            },
+            {
+              "name": "134",
+              "label": "风吹雪"
+            },
+            {
+              "name": "135",
+              "label": "结冰"
+            },
+            {
+              "name": "137",
+              "label": "大风(横风)"
+            },
+            {
+              "name": "1310",
+              "label": "高温"
+            },
+            {
+              "name": "1399",
+              "label": "其他"
+            }
+          ]
+        },
+        {
+          "title": "事故灾害",
+          "child": [
+            {
+              "name": "141",
+              "label": "车辆交通事故"
+            },
+            {
+              "name": "143",
+              "label": "车辆事故"
+            },
+            {
+              "name": "142",
+              "label": "危险品泄露"
+            },
+            {
+              "name": "144",
+              "label": "涉桥事故"
+            },
+            {
+              "name": "145",
+              "label": "涉隧事故"
+            },
+            {
+              "name": "149",
+              "label": "其他"
+            }
+          ]
+        },
+        {
+          "title": "其他",
+          "child": [
+            {
+              "name": "151",
+              "label": "车流量大"
+            },
+            {
+              "name": "152",
+              "label": "收费争议"
+            },
+            {
+              "name": "153",
+              "label": "执法事件"
+            },
+            {
+              "name": "154",
+              "label": "服务区事件"
+            },
+            {
+              "name": "155",
+              "label": "执行警备任务"
+            },
+            {
+              "name": "159",
+              "label": "其他"
+            }
+          ]
+        }
+      ],
+      "express": "groupIN"
+    },
+    {
+      "name": "BLOCK_REASON_ID_2",
+      "code": "BLOCK_REASON_ID_2",
+      "label": "计划性阻断",
+      "type": "group",
+      "child": [
+        {
+          "title": "施工养护",
+          "child": [
+            {
+              "name": "211",
+              "label": "公里施工养护"
+            },
+            {
+              "name": "212",
+              "label": "桥隧施工养护"
+            },
+            {
+              "name": "219",
+              "label": "其他"
+            }
+          ]
+        },
+        {
+          "title": "重大社会活动",
+          "child": [
+            {
+              "name": "221",
+              "label": "重大社会活动"
+            },
+            {
+              "name": "229",
+              "label": "其他"
+            }
+          ]
+        },
+        {
+          "title": "其他",
+          "child": [
+            {
+              "name": "231",
+              "label": "其他(计划性)"
+            },
+            {
+              "name": "239",
+              "label": "其他"
+            }
+          ]
+        }
+      ],
+      "express": "groupIN"
+    }
+  ]
+}

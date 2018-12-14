@@ -1,0 +1,77 @@
+{
+  "input": [
+    {
+      "name": "DM",
+      "label": "路线编码",
+      "type": "single",
+      "code": "LXBM",
+      "capacity": "LXDM",
+      "express": "="
+    },
+    {
+      "name": "LXMC",
+      "label": "路线名称",
+      "type": "single",
+      "code": "LXMC",
+      "express": "LIKE"
+    },
+    {
+      "firstName": "QDZH",
+      "lastName": "ZDZH",
+      "name": "DKZXZH",
+      "label": "桩号范围",
+      "type": "between",
+      "code": "DKZXZH",
+      "express": "number-between"
+    },
+    {
+      "name": "DM",
+      "label": "渡口编码",
+      "type": "single",
+      "code": "DKBM",
+      "nameCol": "DKMC",
+      "valCol": "DKBM",
+      "capacity": "capacityDM",
+      "express": "LIKE"
+    },
+    {
+      "name": "DKMC",
+      "label": "渡口名称",
+      "type": "single",
+      "code": "DKMC",
+      "express": "LIKE"
+    }
+  ],
+  "check": [
+    {
+      "name": "SXX",
+      "code": "SXX",
+      "label": "上下行方向",
+      "type": "single",
+      "child": [
+        {
+          "title": "",
+          "child": [
+            {
+              "name": "1",
+              "label": "上行"
+            },
+            {
+              "name": "2",
+              "label": "下行"
+            },
+            {
+              "name": "3",
+              "label": "双向"
+            },
+            {
+              "name": "4",
+              "label": "匝道"
+            }
+          ]
+        }
+      ],
+      "express": "IN"
+    }
+  ]
+}

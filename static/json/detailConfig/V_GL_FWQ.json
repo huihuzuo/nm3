@@ -1,0 +1,21 @@
+{
+  "layerName": "GIS_FWQ",
+  "field1_name": "服务区名称",
+  "field1_value": "FWQMC",
+  "field2_name": "服务区编码",
+  "field2_value": "FWQBM",
+  "field3_name": "所在路线",
+  "field3_value": "LXBM",
+  "field4_name": "路线名称",
+  "field4_value": "LXMC",
+  "field5_name": "上下行方向",
+  "field5_value": "SXX_VALUE",
+  "field6_name": "管理经营单位名称",
+  "field6_value": "GLDWMC",
+  "field7_name": "中心桩号",
+  "field7_value": "FWQZXZH",
+  "field8_name": "服务内容",
+  "field8_value": "FWNR",
+  "field9_name": "备注",
+  "field9_value": "BZ"
+}

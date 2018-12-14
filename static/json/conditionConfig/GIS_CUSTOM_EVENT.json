@@ -1,0 +1,48 @@
+{
+  "input": [
+    {
+      "name": "EVENTTITLE",
+      "label": "事件标题",
+      "type": "single",
+      "code": "EVENTTITLE",
+      "express": "="
+    },
+    {
+      "firstName": "DETECT_TIME",
+      "lastName": "RESUME_TIME",
+      "name": "HAPPENTIME",
+      "label": "时间范围",
+      "type": "timeBetween",
+      "code": "HAPPENTIME",
+      "express": "time-between"
+    }
+  ],
+  "check": [
+    {
+      "name": "EVENTTYPE",
+      "code": "EVENTTYPE",
+      "label": "事件类型",
+      "type": "single",
+      "child": [
+        {
+          "title": "",
+          "child": [
+            {
+              "name": "1",
+              "label": "地震"
+            },
+            {
+              "name": "2",
+              "label": "爆炸"
+            },
+            {
+              "name": "3",
+              "label": "火灾"
+            }
+          ]
+        }
+      ],
+      "express": "IN"
+    }
+  ]
+}

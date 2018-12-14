@@ -1,0 +1,45 @@
+{
+  "input": [
+    {
+      "name": "DM",
+      "label": "路线编码",
+      "type": "single",
+      "code": "LXBM",
+      "capacity": "LXDM",
+      "express": "="
+    },
+    {
+      "name": "LXMC",
+      "label": "路线名称",
+      "type": "single",
+      "code": "LXMC",
+      "express": "LIKE"
+    },
+    {
+      "firstName": "QDZH",
+      "lastName": "ZDZH",
+      "name": "ZCDZXZH",
+      "label": "桩号范围",
+      "type": "between",
+      "code": "ZCDZXZH",
+      "express": "number-between"
+    },
+    {
+      "name": "DM",
+      "label": "治超站编码",
+      "type": "single",
+      "code": "ZCDBM",
+      "nameCol": "ZCDMC",
+      "valCol": "ZCDBM",
+      "capacity": "capacityDM",
+      "express": "LIKE"
+    },
+    {
+      "name": "ZCDMC",
+      "label": "治超站名称",
+      "type": "single",
+      "code": "ZCDMC",
+      "express": "LIKE"
+    }
+  ]
+}

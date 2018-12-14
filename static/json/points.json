@@ -1,0 +1,78 @@
+{
+  "headers":null,
+  "total":4,
+  "rows":[
+    {
+      "attributes": {
+        "ysbm":"G35",
+        "lxmc":"济广高速",
+        "lxbm":"G35",
+        "zxzh":2.852,
+        "xzqhmc":"济广高速",
+        "xzqhbm":"361100",
+        "BLOCK_REASON": "突发性nbsp;事故灾难nbsp;车辆交通事故",
+        "UPDATE_TIME":"2017/1/19  8:13:37",
+        "DETECT_TIME":"2017/1/19  5:15:00",
+        "START_STAKE":1103,
+        "END_STAKE":1104,
+        "id": "G105360827U0010"
+      },
+      "geometry": "POINT (114.545414 33.11223028)",
+      "geometryType": "Point"
+    },
+    {
+      "attributes": {
+        "ysbm":"G35",
+        "lxmc":"济广高速",
+        "lxbm":"G35",
+        "zxzh":2.852,
+        "xzqhmc":"济广高速",
+        "xzqhbm":"361100",
+        "BLOCK_REASON": "突发性nbsp;事故灾难nbsp;车辆交通事故",
+        "UPDATE_TIME":"2017/1/19  8:13:37",
+        "DETECT_TIME":"2017/1/19  5:15:00",
+        "START_STAKE":1103,
+        "END_STAKE":1104,
+        "id": "G105360827U0011"
+      },
+      "geometry": "POINT (112.207246 35.827714)",
+      "geometryType": "POINT"
+    },
+    {
+      "attributes": {
+        "ysbm":"G35",
+        "lxmc":"济广高速",
+        "lxbm":"G35",
+        "zxzh":2.852,
+        "xzqhmc":"济广高速",
+        "xzqhbm":"361100",
+        "BLOCK_REASON": "突发性nbsp;事故灾难nbsp;车辆交通事故",
+        "UPDATE_TIME":"2017/1/19  8:13:37",
+        "DETECT_TIME":"2017/1/19  5:15:00",
+        "START_STAKE":1103,
+        "END_STAKE":1104,
+        "id": "G105360827U0012"
+      },
+      "geometry": "POINT (113.707354 33.861392)",
+      "geometryType": "Point"
+    },
+    {
+      "attributes": {
+        "ysbm":"G35",
+        "lxmc":"济广高速",
+        "lxbm":"G35",
+        "zxzh":2.852,
+        "xzqhmc":"济广高速",
+        "xzqhbm":"361100",
+        "BLOCK_REASON": "突发性nbsp;事故灾难nbsp;车辆交通事故",
+        "UPDATE_TIME":"2017/1/19  8:13:37",
+        "DETECT_TIME":"2017/1/19  5:15:00",
+        "START_STAKE":1103,
+        "END_STAKE":1104,
+        "id": "G105360827U0013"
+      },
+      "geometry": "POINT (113.77482581 34.725042)",
+      "geometryType": "Point"
+    }
+  ]
+}

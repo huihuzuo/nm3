@@ -1,0 +1,84 @@
+{
+  "nav1": [
+    {
+      "name": "国省干线",
+      "type": "lx",
+      "layerName": "gxgx",
+      "checked":false,
+      "child": [
+        {
+          "title": "国道",
+          "code": "G",
+          "checked":false,
+          "type": "gxgx"
+        },
+        {
+          "title": "省道",
+          "code": "S",
+          "checked":false,
+          "type": "gxgx"
+        },
+        {
+          "title": "县道",
+          "code": "X",
+          "checked":false,
+          "type": "gxgx"
+        }
+      ]
+    }
+  ],
+  "nav2": [
+    {
+      "name": "国省干线",
+      "type": "lx",
+      "checked":false,
+      "layerName": "gxgx",
+      "child": [
+        {
+          "title": "国道",
+          "code": "G",
+          "checked":false,
+          "type": "gxgx"
+        },
+        {
+          "title": "省道",
+          "code": "S",
+          "checked":false,
+          "type": "gxgx"
+        },
+        {
+            "title": "县道",
+          "code": "X",
+          "checked":false,
+          "type": "gxgx"
+        }
+      ]
+    },
+    {
+      "name": "国高网",
+      "type": "lx",
+      "checked":false,
+      "layerName": "ggw",
+      "child": [
+        {
+          "title": "首都放射线",
+          "code": "7",
+          "checked":false,
+          "type": "ggw"
+        },
+        {
+          "title": "南北放射线",
+          "code": "11",
+          "checked":false,
+          "type": "ggw"
+        },
+        {
+          "title": "东西横线",
+          "code": "18",
+          "checked":false,
+          "type": "ggw"
+        }
+      ]
+    }
+  ]
+}

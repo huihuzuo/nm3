@@ -1,0 +1,78 @@
+{
+  "input": [
+    {
+      "name": "DM",
+      "label": "路线编码",
+      "type": "single",
+      "code":"LXBM",
+      "capacity":"LXDM",
+      "express": "="
+    },
+    {
+      "name": "LXMC",
+      "label": "路线名称",
+      "type": "single",
+      "code":"LXMC",
+      "express": "LIKE"
+    },
+    {
+      "firstName": "QDZH",
+      "lastName": "ZDZH",
+      "name":"JYZZXZH",
+      "label": "桩号范围",
+      "type": "between",
+      "code":"JYZZXZH",
+      "express": "number-between"
+    },
+    {
+      "name": "DM",
+      "label": "加油站编码",
+      "type": "single",
+      "code":"JYZBM",
+      "nameCol": "JYZMC",
+      "valCol": "JYZBM",
+      "capacity":"capacityDM",
+      "express": "LIKE"
+    },
+    {
+      "name": "JYZMC",
+      "label": "加油站名称",
+      "type": "single",
+      "code":"JYZMC",
+      "capacity":"capacityMC",
+      "express": "LIKE"
+    }
+  ],
+  "check": [
+    {
+      "name": "SXX",
+      "code": "SXX",
+      "label": "上下行方向",
+      "type": "single",
+      "child": [
+        {
+          "title": "",
+          "child": [
+            {
+              "name": "1",
+              "label": "上行"
+            },
+            {
+              "name": "2",
+              "label": "下行"
+            },
+            {
+              "name": "3",
+              "label": "双向"
+            },
+            {
+              "name": "4",
+              "label": "匝道"
+            }
+          ]
+        }
+      ],
+      "express": "IN"
+    }
+  ]
+}

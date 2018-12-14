@@ -1,0 +1,190 @@
+[
+  {
+    "type": "ljfxConfig",
+    "config": [
+      {
+        "name": "设为起点",
+        "alias": "setStartPoint",
+        "icon": "icon-qidian"
+      },
+      {
+        "name": "设为止点",
+        "alias": "setEndPoint",
+        "icon": "icon-zhongdian"
+      },
+      {
+        "name": "设为规避点",
+        "alias": "setGuibiPoint",
+        "icon": "icon-guibidian"
+      },
+      {
+        "name": "设为途经点",
+        "alias": "setTujingPoint",
+        "icon": "icon-tujingdian"
+      },
+      {
+        "name": "自定义样式",
+        "alias": "customStyle",
+        "icon": "icon-zidingyiyangshi"
+      },
+      {
+        "name": "添加为标记点",
+        "alias": "addMakePoint",
+        "icon": "icon-iconbiaozhu"
+      }
+    ]
+  },
+  {
+    "type": "nomalLjfx",
+    "config": [
+      {
+        "name": "设为起点",
+        "alias": "startPoint",
+        "icon": "icon-qidian"
+      },
+      {
+        "name": "设为止点",
+        "alias": "endPoint",
+        "icon": "icon-zhongdian"
+      },
+      {
+        "name": "设为规避点",
+        "alias": "guibiPoint",
+        "icon": "icon-guibidian"
+      },
+      {
+        "name": "设为途经点",
+        "alias": "tujingPoint",
+        "icon": "icon-tujingdian"
+      },
+      {
+        "name": "周边搜索",
+        "alias": "circleSearch",
+        "icon": "icon-youjianchaxun"
+      }
+    ]
+  },
+  {
+    "type": "nomal",
+    "config": [
+      {
+        "name": "快速定位",
+        "alias": "",
+        "icon": "icon-dingwei1",
+        "sub": [
+          {
+            "name": "桩号定位",
+            "alias": "location",
+            "icon": "icon-dingwei"
+          },
+          {
+            "name": "经纬度定位",
+            "alias": "coordinate",
+            "icon": "icon-luxian"
+          }
+        ]
+      },
+      {
+        "name": "车牌查询",
+        "alias": "plateNumber",
+        "icon": "icon-daoluhuoyunzhan"
+      },
+      {
+        "name": "周边搜索",
+        "alias": "circleShapeQuery",
+        "icon": "icon-youjianchaxun"
+      },
+      {
+        "name": "拉框查询",
+        "alias": "RegularShapeQuery",
+        "icon": "icon-youjianquyuchaxun"
+      },
+      {
+        "name": "应急标绘",
+        "alias": "plot",
+        "icon": "icon-yingjibiaohui"
+      },
+      {
+        "name": "I查询",
+        "icon": "icon-iconi",
+        "sub": [
+          {
+            "name": "构造物",
+            "alias": "POINT",
+            "icon": "icon-dingwei"
+          },
+          {
+            "name": "路线",
+            "alias": "LINE",
+            "icon": "icon-luxian"
+          },
+          {
+            "name": "路段",
+            "alias": "ROAD",
+            "icon": "icon-iconfontluxian"
+          }
+        ]
+      },
+      {
+        "name": "路径分析",
+        "alias": "pathAnalysis",
+        "icon": "icon-iconlujing"
+      },
+      {
+        "name": "清空地图",
+        "alias": "clearMap",
+        "icon": "icon-youjianqingkong groups"
+      },
+      {
+        "name": "打印地图",
+        "alias": "printMap",
+        "icon": "icon-dayinji"
+      }
+    ]
+  },
+  {
+    "type": "plotConfig",
+    "config": [
+      {
+        "name": "删除应急标绘",
+        "alias": "deletePlot",
+        "icon": "icon-youjianshanchu"
+      }
+    ]
+  },
+  {
+    "type": "zhlocate",
+    "config": [
+      {
+        "name": "自定义事件",
+        "alias": "customBlock",
+        "icon": "icon-youjianchaxun"
+      },
+      {
+        "name": "周边搜索",
+        "alias": "circleSearch",
+        "icon": "icon-youjianchaxun"
+      },
+      {
+        "name": "设为起点",
+        "alias": "startPoint",
+        "icon": "icon-qidian"
+      },
+      {
+        "name": "设为止点",
+        "alias": "endPoint",
+        "icon": "icon-zhongdian"
+      }
+    ]
+  },
+  {
+    "type": "warnDispose",
+    "config": [
+      {
+        "name": "处置",
+        "alias": "dispose",
+        "icon": "icon-chuzhi"
+      }
+    ]
+  }
+]

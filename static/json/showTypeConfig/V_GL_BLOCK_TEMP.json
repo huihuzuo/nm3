@@ -1,0 +1,9 @@
+{
+  "ROAD_ID":"lxdm",
+  "ROAD_NAME":"lxmc",
+  "BLOCK_REASON":"eventType",
+  "START_STAKE":"qdzh",
+  "END_STAKE":"zdzh",
+  "DETECT_TIME":"startTime",
+  "ESTIMATE_TIME":"recoveryTime"
+}

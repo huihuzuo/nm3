@@ -1,0 +1,115 @@
+{
+  "input": [
+    {
+      "code": "LXBM",
+      "name": "DM",
+      "label": "路线编码",
+      "type": "single",
+      "capacity": "LXDM",
+      "express": "="
+    },
+    {
+      "name": "LXMC",
+      "label": "路线名称",
+      "type": "single",
+      "code": "LXMC",
+      "express": "LIKE"
+    },
+    {
+      "code": "SDDM",
+      "name": "DM",
+      "label": "隧道编码",
+      "type": "single",
+      "nameCol": "SDMC",
+      "valCol": "SDDM",
+      "capacity": "capacityDM",
+      "express": "LIKE"
+    },
+    {
+      "name": "SDMC",
+      "label": "隧道名称",
+      "type": "single",
+      "code": "SDMC",
+      "express": "LIKE"
+    },
+    {
+      "firstName": "QDZH",
+      "lastName": "ZDZH",
+      "name": "SDZXZH",
+      "label": "桩号范围",
+      "type": "between",
+      "code": "SDZXZH",
+      "express": "number-between"
+    }
+  ],
+  "check": [
+    {
+      "name": "CDFL_KEY",
+      "code": "CDFL_KEY",
+      "label": "隧道分类",
+      "type": "single",
+      "child": [
+        {
+          "title": "",
+          "child": [
+            {
+              "name": "1",
+              "label": "特长隧道"
+            },
+            {
+              "name": "2",
+              "label": "长隧道"
+            },
+            {
+              "name": "3",
+              "label": "中隧道"
+            },
+            {
+              "name": "4",
+              "label": "短隧道"
+            }
+          ]
+        }
+      ],
+      "express": "IN"
+    },
+    {
+      "name": "PDDJ_KEY",
+      "code": "PDDJ_KEY",
+      "label": "技术评定等级",
+      "type": "single",
+      "child": [
+        {
+          "title": "",
+          "child": [
+            {
+              "name": "1",
+              "label": "一类"
+            },
+            {
+              "name": "2",
+              "label": "二类"
+            },
+            {
+              "name": "3",
+              "label": "三类"
+            },
+            {
+              "name": "4",
+              "label": "四类"
+            },
+            {
+              "name": "5",
+              "label": "五类"
+            },
+            {
+              "name": "other",
+              "label": "未评定"
+            }
+          ]
+        }
+      ],
+      "express": "IN"
+    }
+  ]
+}

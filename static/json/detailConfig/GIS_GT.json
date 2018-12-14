@@ -1,0 +1,17 @@
+{
+  "layerName": "GIS_GT",
+  "field1_name": "停车区名称",
+  "field1_value": "GTMC",
+  "field2_name": "停车区编码",
+  "field2_value": "GTBM",
+  "field3_name": "所在路线",
+  "field3_value": "LXBM",
+  "field4_name": "路线名称",
+  "field4_value": "LXMC",
+  "field5_name": "中心桩号",
+  "field5_value": "GTZXZH",
+  "field6_name": "上下行方向",
+  "field6_value": "SXX_VALUE",
+  "field7_name": "行政区划",
+  "field7_value": "ADMINCODE_VALUE"
+}

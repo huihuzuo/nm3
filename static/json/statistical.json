@@ -1,0 +1,51 @@
+[
+  {
+    "title": "动态信息",
+    "alias": "dtxx",
+    "data": [
+      {
+        "label": "阻断事件",
+        "alias": "ZDSJ",
+        "layerName": "V_GL_BLOCK_TEMP",
+        "name": "阻断事件",
+        "type": "LINE",
+        "code": "BLOCK_KEY"
+      }
+    ]
+  },
+  {
+    "title": "统计信息",
+    "alias": "tjxx",
+    "data": [
+      {
+        "label": "技术等级",
+        "alias": "JSDJ",
+        "layerName": "GIS_JSDJ",
+        "name": "技术等级",
+        "code": "JSDJ_KEY"
+      },
+      {
+        "label": "路面类型",
+        "alias": "MCLX",
+        "layerName": "GIS_LMLX",
+        "name": "路面类型",
+        "code": "MCLX_KEY"
+      },
+      {
+        "label": "车道特征",
+        "alias": "CDSL",
+        "layerName": "GIS_CDTZ",
+        "name": "车道特征",
+        "code": "CDSL_KEY"
+      },
+      {
+        "label": "路况评定",
+        "alias": "LKPD",
+        "layerName": "GL_LKJC",
+        "name": "路况评定检测",
+        "type": "LINE",
+        "code": ""
+      }
+    ]
+  }
+]

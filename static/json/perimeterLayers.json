@@ -1,0 +1,38 @@
+{
+  "code": "200",
+  "success": true,
+  "data": [
+    {
+      "name": "桥梁",
+      "tableName": "GIS_QL"
+    },
+    {
+      "name": "隧道",
+      "tableName": "GIS_SD"
+    },
+    {
+      "name": "服务区",
+      "tableName": "GIS_FWQ"
+    },
+    {
+      "name": "收费站",
+      "tableName": "GIS_SFZ"
+    },
+    {
+      "name": "治超站",
+      "tableName": "GIS_ZCZ"
+    },
+    {
+      "name": "情报板",
+      "tableName": "GIS_QBB"
+    },
+    {
+      "name": "摄像头",
+      "tableName": "GIS_SPD"
+    },
+    {
+      "name": "出入口",
+      "tableName": "GIS_CRK"
+    }
+  ]
+}

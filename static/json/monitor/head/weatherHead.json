@@ -1,0 +1,51 @@
+{
+  "code": "200",
+  "data": [
+    {
+      "id": "10010105",
+      "label": "能见度",
+      "unit": "km",
+      "szpx": "asc",
+      "lcpx": "desc",
+      "alias": "visibility",
+      "type": "visibilitys",
+      "icon": "icon-nengjiandu",
+      "val": "里程/能见度"
+    },
+    {
+      "id": "10010103",
+      "label": "降水",
+      "unit": "mm",
+      "szpx": "desc",
+      "lcpx": "desc",
+      "alias": "rainfall",
+      "type": "precipitations",
+      "icon": "icon-jiangshui",
+      "val": "里程/降水量"
+    },
+    {
+      "id": "10010104",
+      "label": "风力",
+      "unit": "m/s",
+      "szpx": "desc",
+      "lcpx": "desc",
+      "alias": "wind",
+      "type": "winds",
+      "icon": "icon-feng",
+      "val": "里程/风速"
+    },
+    {
+      "id": "10010110",
+      "label": "温度",
+      "unit": "℃",
+      "szpx": "asc",
+      "lcpx": "desc",
+      "alias": "temperatures",
+      "type": "temperatures",
+      "icon": "icon-wenduji",
+      "val": "里程/温度值"
+    }
+  ],
+  "msg": "",
+  "success": true
+}

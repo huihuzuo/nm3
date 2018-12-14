@@ -1,0 +1,19 @@
+{
+  "layerName": "GIS_SXT",
+  "field1_name": "摄像头名称",
+  "field1_value": "SXTMC",
+  "field2_name": "摄像头编码",
+  "field2_value": "SXTBM",
+  "field3_name": "所在路线",
+  "field3_value": "LXBM",
+  "field4_name": "路线名称",
+  "field4_value": "LXMC",
+  "field5_name": "中心桩号",
+  "field5_value": "SXTZXZH",
+  "field6_name": "上下行方向",
+  "field6_value": "SXX_VALUE",
+  "field7_name": "行政区划",
+  "field7_value": "ADMINCODE",
+  "field8_name": "数据来源",
+  "field8_value": "DATA_ORIGN"
+}

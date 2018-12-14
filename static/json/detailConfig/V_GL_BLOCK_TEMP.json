@@ -1,0 +1,17 @@
+{
+  "layerName": "V_GL_BLOCK_TEMP",
+  "field1_name": "路线名称",
+  "field1_value": "ROAD_NAME",
+  "field2_name": "预计恢复",
+  "field2_value": "showrecoveryTime",
+  "field3_name": "阻断原因",
+  "field3_value": "BLOCK_REASON",
+  "field5_name": "所在路线",
+  "field5_value": "ROAD_ID",
+  "field6_name": "路线名称",
+  "field6_value": "ROAD_NAME",
+  "field7_name": "阻断位置",
+  "field7_value": "BLOCK_LOCATION",
+  "field8_name": "现场描述",
+  "field8_value": "SCENE_DESC"
+}

@@ -1,0 +1,103 @@
+{
+  "input": [
+    {
+      "name": "DM",
+      "label": "路线编码",
+      "type": "single",
+      "code": "LXBM",
+      "capacity": "LXDM",
+      "express": "="
+    },
+    {
+      "name": "LXMC",
+      "label": "路线名称",
+      "type": "single",
+      "code": "LXMC",
+      "express": "LIKE"
+    },
+    {
+      "firstName": "QDZH",
+      "lastName": "ZDZH",
+      "name": "CRKZXZH",
+      "label": "桩号范围",
+      "type": "between",
+      "code": "CRKZXZH",
+      "express": "number-between"
+    },
+    {
+      "name": "DM",
+      "label": "出入口编码",
+      "type": "single",
+      "code": "CRKDM",
+      "nameCol": "CRKMC",
+      "valCol": "CRKDM",
+      "capacity": "capacityDM",
+      "express": "LIKE"
+    },
+    {
+      "name": "CRKMC",
+      "label": "出入口名称",
+      "type": "single",
+      "code": "CRKMC",
+      "express": "LIKE"
+    }
+  ],
+  "check": [
+    {
+      "name": "CRKLX_KEY",
+      "code": "CRKLX_KEY",
+      "label": "出入口类型",
+      "type": "single",
+      "child": [
+        {
+          "title": "",
+          "child": [
+            {
+              "name": "1",
+              "label": "出口"
+            },
+            {
+              "name": "2",
+              "label": "入口"
+            },
+            {
+              "name": "3",
+              "label": "出入口"
+            }
+          ]
+        }
+      ],
+      "express": "IN"
+    },
+    {
+      "name": "SXXFX",
+      "code": "SXXFX",
+      "label": "上下行方向",
+      "type": "single",
+      "child": [
+        {
+          "title": "",
+          "child": [
+            {
+              "name": "1",
+              "label": "上行"
+            },
+            {
+              "name": "2",
+              "label": "下行"
+            },
+            {
+              "name": "3",
+              "label": "双向"
+            },
+            {
+              "name": "4",
+              "label": "匝道"
+            }
+          ]
+        }
+      ],
+      "express": "LIKE"
+    }
+  ]
+}

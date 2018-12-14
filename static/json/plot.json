@@ -1,0 +1,68 @@
+[
+  {
+    "id": "mb",
+    "name": "目标",
+    "alias": "Point",
+    "src": "a.png"
+  },
+  {
+    "id": "zjt",
+    "name": "直箭头",
+    "alias": "AssaultDirection",
+    "src": "b.png"
+  },
+  {
+    "id": "xjt",
+    "name": "斜箭头",
+    "alias": "FineArrow",
+    "src": "c.png"
+  },
+  {
+    "id": "sjt",
+    "name": "双箭头",
+    "alias": "DoubleArrow",
+    "src": "d.png"
+  },
+  {
+    "id": "sjq",
+    "name": "三角旗",
+    "alias": "TriangleFlag",
+    "src": "e.png"
+  },
+  {
+    "id": "x",
+    "name": "线",
+    "alias": "Curve",
+    "src": "f.png"
+  },
+  {
+    "id": "jx",
+    "name": "矩形",
+    "alias": "RectAngle",
+    "src": "g.png"
+  },
+  {
+    "id": "yx",
+    "name": "圆形",
+    "alias": "Circle",
+    "src": "h.png"
+  },
+  {
+    "id": "dbx",
+    "name": "多边形",
+    "alias": "Polygon",
+    "src": "i.png"
+  },
+  {
+    "id": "jjd",
+    "name": "集结地",
+    "alias": "GatheringPlace",
+    "src": "j.png"
+  },
+  {
+    "id": "qp",
+    "name": "气泡",
+    "alias": "TextArea",
+    "src": "k.png"
+  }
+]

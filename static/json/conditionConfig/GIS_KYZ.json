@@ -1,0 +1,68 @@
+{
+  "input": [
+    {
+      "code": "LXBM",
+      "name": "DM",
+      "label": "路线编码",
+      "type": "single",
+      "capacity": "LXDM",
+      "express": "="
+    },
+    {
+      "name": "LXMC",
+      "label": "路线名称",
+      "type": "single",
+      "code": "LXMC",
+      "express": "LIKE"
+    },
+    {
+      "code": "KYZBM",
+      "name": "DM",
+      "label": "客运站编码",
+      "type": "single",
+      "nameCol": "KYZMC",
+      "valCol": "KYZBM",
+      "capacity": "capacityDM",
+      "express": "LIKE"
+    },
+    {
+      "name": "KYZMC",
+      "label": "客运站名称",
+      "type": "single",
+      "code": "FWQMC",
+      "express": "LIKE"
+    }
+  ],
+  "check": [
+    {
+      "name": "SXX",
+      "code": "SXX",
+      "label": "上下行方向",
+      "type": "single",
+      "child": [
+        {
+          "title": "",
+          "child": [
+            {
+              "name": "1",
+              "label": "上行"
+            },
+            {
+              "name": "2",
+              "label": "下行"
+            },
+            {
+              "name": "3",
+              "label": "双向"
+            },
+            {
+              "name": "4",
+              "label": "匝道"
+            }
+          ]
+        }
+      ],
+      "express": "IN"
+    }
+  ]
+}

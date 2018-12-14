@@ -1,0 +1,103 @@
+[
+  {
+    "name": "基本信息",
+    "child": [
+      {
+        "label": "调查方法",
+        "key": "DCFF"
+      },
+      {
+        "label": "供电方式",
+        "key": "GDFS_VALUE"
+      },
+      {
+        "label": "通讯方式",
+        "key": "TXFS_VALUE"
+      },
+      {
+        "label": "业务特征",
+        "key": "YWTZ"
+      },
+      {
+        "label": "调查人员数量",
+        "key": "DCRYSL"
+      },
+      {
+        "label": "建站日期",
+        "key": "JZRQ",
+        "type": "date"
+      },
+      {
+        "label": "停测开始日",
+        "key": "TC_START",
+        "type": "date"
+      },
+      {
+        "label": "停测结束日",
+        "key": "TC_END",
+        "type": "date"
+      },
+      {
+        "label": "行政区划",
+        "key": "ADMINCODE_VALUE"
+      },
+      {
+        "label": "备注",
+        "key": "DESC_INFO"
+      },
+      {
+        "label": "更新时间",
+        "key": "UPDATE_TIME",
+        "type": "date"
+      }
+    ]
+  },
+  {
+    "name": "路线信息",
+    "child": [
+      {
+        "label": "所在路线",
+        "key": "LXMC"
+      },
+      {
+        "label": "路线方向",
+        "key": "SXX_VALUE"
+      },
+      {
+        "label": "技术等级",
+        "key": "JSDJ"
+      },
+      {
+        "label": "车道数量",
+        "key": "CDSL"
+      },
+      {
+        "label": "路面类型",
+        "key": "LMLX_VALUE"
+      },
+      {
+        "label": "路面宽度",
+        "key": "LMKD",
+        "type": "number"
+      },
+      {
+        "label": "路基宽度",
+        "key": "LJKD",
+        "type": "number"
+      },
+      {
+        "label": "设计速度",
+        "key": "SJSD",
+        "type": "number"
+      },
+      {
+        "label": "适应交通量",
+        "key": "SYJTL"
+      },
+      {
+        "label": "地貌",
+        "key": "DIMAO_VALUE"
+      }
+    ]
+  }
+]

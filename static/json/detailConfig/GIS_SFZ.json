@@ -1,0 +1,17 @@
+{
+  "layerName": "GIS_SFZ",
+  "field1_name": "收费站名称",
+  "field1_value": "SFZMC",
+  "field2_name": "收费站编码",
+  "field2_value": "SFZBM",
+  "field3_name": "所在路线",
+  "field3_value": "LXBM",
+  "field4_name": "路线名称",
+  "field4_value": "LXMC",
+  "field5_name": "中心桩号",
+  "field5_value": "SFZZXZH",
+  "field6_name": "上下行方向",
+  "field6_value": "SXX_VALUE",
+  "field7_name": "行政区划",
+  "field7_value": "ADMINCODE_VALUE"
+}

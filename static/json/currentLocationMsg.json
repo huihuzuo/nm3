@@ -1,0 +1,14 @@
+{
+  "errCode":0,
+  "errMsg":"",
+  "object":[
+    {
+      "closet":"POINT (115.4539286151873 25.592490836194237)",
+      "code":"S41",
+      "distance":0.00020457444510514635,
+      "name":"宁定高速",
+      "imagesSrc": "http://pcsv0.map.bdimg.com/?udt=20161226&qt=pdata&sid=01002200001307240804219905B&pos=0_0&z=0"
+    }
+  ],
+  "successed":true
+}

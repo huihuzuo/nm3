@@ -1,0 +1,77 @@
+{
+  "input": [
+    {
+      "code": "LXBM",
+      "name": "DM",
+      "label": "路线编码",
+      "type": "single",
+      "capacity": "LXDM",
+      "express": "="
+    },
+    {
+      "name": "LXMC",
+      "label": "路线名称",
+      "type": "single",
+      "code": "LXMC",
+      "express": "LIKE"
+    },
+    {
+      "firstName": "QDZH",
+      "lastName": "ZDZH",
+      "name": "SFZZXZH",
+      "label": "桩号范围",
+      "type": "between",
+      "code": "SFZZXZH",
+      "express": "number-between"
+    },
+    {
+      "code": "SFZBM",
+      "nameCol": "SFZMC",
+      "valCol": "SFZBM",
+      "name": "DM",
+      "label": "收费站编码",
+      "type": "single",
+      "capacity": "capacityDM",
+      "express": "LIKE"
+    },
+    {
+      "name": "SFZMC",
+      "label": "收费站名称",
+      "type": "single",
+      "code": "SFZMC",
+      "express": "LIKE"
+    }
+  ],
+  "check": [
+    {
+      "name": "SXX",
+      "code": "SXX",
+      "label": "上下行方向",
+      "type": "single",
+      "child": [
+        {
+          "title": "",
+          "child": [
+            {
+              "name": "1",
+              "label": "上行"
+            },
+            {
+              "name": "2",
+              "label": "下行"
+            },
+            {
+              "name": "3",
+              "label": "双向"
+            },
+            {
+              "name": "4",
+              "label": "匝道"
+            }
+          ]
+        }
+      ],
+      "express": "IN"
+    }
+  ]
+}

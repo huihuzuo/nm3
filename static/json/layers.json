@@ -1,0 +1,98 @@
+{
+  "code": "200",
+  "success": true,
+  "data": [
+    {
+      "name": "动态图层",
+      "className": "qx-layer-content",
+      "child": [
+        {
+          "parent": "qx-layer-content",
+          "name": "能见度",
+          "code": "visibilitys",
+          "taskId": "10010105",
+          "unit": "km"
+        },
+        {
+          "parent": "qx-layer-content",
+          "name": "降水",
+          "code": "precipitations",
+          "taskId": "10010103",
+          "unit": "mm"
+        },
+        {
+          "parent": "qx-layer-content",
+          "name": "风",
+          "code": "winds",
+          "taskId": "10010104",
+          "unit": "m/s"
+        },
+        {
+          "parent": "qx-layer-content",
+          "name": "雾",
+          "code": "fogs",
+          "taskId": "10010201",
+          "unit": "km"
+        },
+        {
+          "parent": "qx-layer-content",
+          "name": "温度",
+          "code": "temperatures",
+          "taskId": "10010110",
+          "unit": "°C"
+        },
+        {
+          "parent": "qx-layer-content",
+          "name": "雷达图",
+          "code": "radar",
+          "taskId": "10010102",
+          "unit": ""
+        },
+        {
+          "parent": "qx-layer-content",
+          "name": "卫星云图",
+          "code": "cloud",
+          "taskId": "10010101",
+          "unit": ""
+        }
+      ]
+    },
+    {
+      "name": "专题图层",
+      "className": "feature-layer-content",
+      "child": [
+        {
+          "name": "坡向图",
+          "code": "base_aspect",
+          "parent": "feature-layer-content"
+        },
+        {
+          "name": "坡度图",
+          "code": "base_slope",
+          "parent": "feature-layer-content"
+        }
+      ]
+    },
+    {
+      "name": "底图",
+      "className": "base-layer-content",
+      "child": [
+        {
+          "name": "矢量图",
+          "code": "vector",
+          "parent": "base-layer-content"
+        },
+        {
+          "name": "影像图",
+          "code": "earth",
+          "parent": "base-layer-content"
+        },
+        {
+          "name": "地形图",
+          "code": "panorama",
+          "parent": "base-layer-content"
+        }
+      ]
+    }
+  ]
+}

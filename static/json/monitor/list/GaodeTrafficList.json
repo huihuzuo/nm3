@@ -1,0 +1,115 @@
+{
+  "code": "200",
+  "data": [
+    {
+      "attributes": {
+        "ID": "1",
+        "OBJECTID": "84",
+        "LXMC": "德昌高速1",
+        "QDZH": "1007.3380000000",
+        "ZDZH": "484.3580000000",
+        "SXXFX": "2",
+        "GUID": "G4_2",
+        "LXBM": "G4",
+        "BLOCK_REASON": "大雾",
+        "SCENE": "多辆汽车追尾",
+        "SYS_OTIME": 1526017768,
+        "STATUS": 1,
+        "CS": "9"
+      },
+      "geometry": "POINT (115.5816650390625 27.064819335937504)"
+    },
+    {
+      "attributes": {
+        "ID": "2",
+        "OBJECTID": "84",
+        "LXMC": "德昌高速2",
+        "QDZH": "1007.3380000000",
+        "ZDZH": "484.3580000000",
+        "SXXFX": "2",
+        "GUID": "G4_2",
+        "LXBM": "G4",
+        "BLOCK_REASON": "大雾",
+        "SCENE": "多辆汽车追尾",
+        "SYS_OTIME": 1526017768,
+        "STATUS": 2,
+        "CS": "9"
+      },
+      "geometry": "POINT (116.2078857421875 27.767944335937504)"
+    },
+    {
+      "attributes": {
+        "ID": "3",
+        "OBJECTID": "84",
+        "LXMC": "德昌高速3",
+        "QDZH": "1007.3380000000",
+        "ZDZH": "484.3580000000",
+        "SXXFX": "2",
+        "GUID": "G4_2",
+        "LXBM": "G4",
+        "BLOCK_REASON": "大雾",
+        "SCENE": "多辆汽车追尾",
+        "SYS_OTIME": 1526017768,
+        "STATUS": 3,
+        "CS": "9"
+      },
+      "geometry": "POINT (115.84945678710938 26.048583984375)"
+    },
+    {
+      "attributes": {
+        "ID": "4",
+        "OBJECTID": "84",
+        "LXMC": "德昌高速4",
+        "QDZH": "1007.3380000000",
+        "ZDZH": "484.3580000000",
+        "SXXFX": "2",
+        "GUID": "G4_2",
+        "LXBM": "G4",
+        "BLOCK_REASON": "大雾",
+        "SCENE": "多辆汽车追尾",
+        "SYS_OTIME": 1526017768,
+        "STATUS": 4,
+        "CS": "9"
+      },
+      "geometry": "POINT (114.53659057617188 26.30950927734375)"
+    },
+    {
+      "attributes": {
+        "ID": "5",
+        "OBJECTID": "84",
+        "LXMC": "德昌高速5",
+        "QDZH": "1007.3380000000",
+        "ZDZH": "484.3580000000",
+        "SXXFX": "2",
+        "GUID": "G4_2",
+        "LXBM": "G4",
+        "BLOCK_REASON": "大雾",
+        "SCENE": "多辆汽车追尾",
+        "SYS_OTIME": 1526017768,
+        "STATUS": 4,
+        "CS": "9"
+      },
+      "geometry": "POINT (114.21798706054688 26.83685302734375)"
+    },
+    {
+      "attributes": {
+        "ID": "6",
+        "OBJECTID": "84",
+        "LXMC": "德昌高速6",
+        "QDZH": "1007.3380000000",
+        "ZDZH": "484.3580000000",
+        "SXXFX": "2",
+        "GUID": "G4_2",
+        "LXBM": "G4",
+        "BLOCK_REASON": "大雾",
+        "SCENE": "多辆汽车追尾",
+        "SYS_OTIME": 1526017768,
+        "STATUS": 4,
+        "CS": "9"
+      },
+      "geometry": "POINT (115.69290161132814 29.61639404296875)"
+    }
+  ],
+  "msg": "",
+  "success": true
+}

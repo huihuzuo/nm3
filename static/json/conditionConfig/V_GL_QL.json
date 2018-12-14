@@ -1,0 +1,186 @@
+{
+  "input": [
+    {
+      "name": "DM",
+      "label": "路线编码",
+      "type": "single",
+      "code": "LXBM",
+      "capacity": "LXDM",
+      "express": "="
+    },
+    {
+      "name": "LXMC",
+      "label": "路线名称",
+      "type": "single",
+      "code": "LXMC",
+      "express": "LIKE"
+    },
+    {
+      "name": "DM",
+      "label": "桥梁编码",
+      "type": "single",
+      "code": "QLDM",
+      "nameCol": "QLMC",
+      "valCol": "QLDM",
+      "capacity": "capacityDM",
+      "express": "LIKE"
+    },
+    {
+      "name": "QLMC",
+      "label": "桥梁名称",
+      "type": "single",
+      "code": "QLMC",
+      "express": "LIKE"
+    }
+  ],
+  "check": [
+    {
+      "name": "PDDJ_KEY",
+      "code": "PDDJ_KEY",
+      "label": "技术评定等级",
+      "type": "single",
+      "child": [
+        {
+          "title": "",
+          "child": [
+            {
+              "name": "1",
+              "label": "一类"
+            },
+            {
+              "name": "2",
+              "label": "二类"
+            },
+            {
+              "name": "3",
+              "label": "三类"
+            },
+            {
+              "name": "4",
+              "label": "四类"
+            },
+            {
+              "name": "5",
+              "label": "五类"
+            },
+            {
+              "name": "other",
+              "label": "未评定"
+            }
+          ]
+        }
+      ],
+      "express": "IN"
+    },
+    {
+      "name": "QLKJ_KEY",
+      "code": "QLKJ_KEY",
+      "label": "跨径分类",
+      "type": "single",
+      "child": [
+        {
+          "title": "",
+          "child": [
+            {
+              "name": "1",
+              "label": "特大桥"
+            },
+            {
+              "name": "2",
+              "label": "大桥"
+            },
+            {
+              "name": "3",
+              "label": "中桥"
+            },
+            {
+              "name": "4",
+              "label": "小桥"
+            },
+            {
+              "name": "other",
+              "label": "未评定"
+            }
+          ]
+        }
+      ],
+      "express": "IN"
+    },
+    {
+      "name": "SJHZ_KEY",
+      "code": "SJHZ_KEY",
+      "label": "设计荷载",
+      "type": "single",
+      "child": [
+        {
+          "title": "",
+          "child": [
+            {
+              "name": "1",
+              "label": "公路I级"
+            },
+            {
+              "name": "2",
+              "label": "公路II级"
+            },
+            {
+              "name": "3",
+              "label": "汽车超20级"
+            },
+            {
+              "name": "4",
+              "label": "汽车20级"
+            },
+            {
+              "name": "5",
+              "label": "汽车15级"
+            },
+            {
+              "name": "6",
+              "label": "汽车13级"
+            },
+            {
+              "name": "7",
+              "label": "汽车10级"
+            },
+            {
+              "name": "9",
+              "label": "低于汽车10级"
+            }
+          ]
+        }
+      ],
+      "express": "IN"
+    },
+    {
+      "name": "SYNX_KEY",
+      "code": "SYNX_KEY",
+      "label": "使用年限",
+      "type": "single",
+      "child": [
+        {
+          "title": "",
+          "child": [
+            {
+              "name": "1",
+              "label": "永久"
+            },
+            {
+              "name": "2",
+              "label": "半永久"
+            },
+            {
+              "name": "3",
+              "label": "临时"
+            },
+            {
+              "name": "other",
+              "label": "未评定"
+            }
+          ]
+        }
+      ],
+      "express": "IN"
+    }
+  ]
+}

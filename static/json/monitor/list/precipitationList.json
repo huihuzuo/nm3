@@ -1,0 +1,29 @@
+{
+  "code": "200",
+  "data": [
+    {
+      "attributes": {
+        "ID": "1",
+        "OBJECTID": "84",
+        "LXMC": "德昌高速1",
+        "QDZH": "1007.3380000000",
+        "ZDZH": "484.3580000000",
+        "SXXFX": "2",
+        "GUID": "G4_2",
+        "LXBM": "G4",
+        "BLOCK_REASON": "大雾",
+        "SCENE": "多辆汽车追尾",
+        "SYS_OTIME": 1526017768,
+        "STATUS": 1,
+        "CS": "9",
+        "LL": 1405,
+        "BHD": 55.7,
+        "NAME": "江西收费站",
+        "SZ": 1.1
+      },
+      "geometry": "POINT (115.5816650390625 27.064819335937504)"
+    }
+  ],
+  "msg": "",
+  "success": true
+}

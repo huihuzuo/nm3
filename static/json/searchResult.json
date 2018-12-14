@@ -1,0 +1,917 @@
+{
+  "code": null,
+  "data": {
+    "allCount": 239311,
+    "features": [
+      {
+        "attributes": {
+          "OBJECTID": "1",
+          "LXBM": "X906110109",
+          "WZLX": "2",
+          "DWDM": " ",
+          "DWMC": " ",
+          "LXMC": "石担路联络线",
+          "SXX": "2",
+          "GUID": "81285794-A3BD-48A7-AAA3-0603552FCB59",
+          "ROADID": "248016",
+          "SSLX": "9",
+          "MAPID": " ",
+          "KIND": " ",
+          "ZIPCODE": " ",
+          "TELEPHONE": " ",
+          "ADMINCODE": " ",
+          "DISPLAY_X": " ",
+          "DISPLAY_Y": " ",
+          "POI_ID": " ",
+          "IMPORTANCE": " ",
+          "VADMINCODE": " ",
+          "CHAINCODE": " ",
+          "PRIOR_AUTH": " ",
+          "LINKID": " ",
+          "SIDE": " ",
+          "PID": " ",
+          "TEL_TYPE": " ",
+          "FOOD_TYPE": " ",
+          "AIRPT_CODE": " ",
+          "OPEN_24H": " ",
+          "DATA_SRC": " ",
+          "MESH_ID": " ",
+          "POI_FLAG": " ",
+          "RATING": " ",
+          "NAME": " ",
+          "ADDRESS": " ",
+          "QLBM": "X906110109L0030",
+          "QLMC": "引水渠慢车道桥",
+          "QLZXZH": "0.2480000000",
+          "LXDM": "X906110109",
+          "QLDM": "X906110109L0030",
+          "SXXFX": "2",
+          "JSDJ_VALUE": null,
+          "QLQC": null,
+          "KJZC": null,
+          "DKZDKJ": null,
+          "KJZH": null,
+          "QLQK": null,
+          "QMJK": null,
+          "QLKJ_KEY": null,
+          "QLKJ_VALUE": null,
+          "SYNX_KEY": null,
+          "SYNX_VALUE": null,
+          "QLJG_KEY": null,
+          "QLJG_VALUE": null,
+          "QLCL_KEY": null,
+          "QLCL_VALUE": null,
+          "QLQD_KEY": null,
+          "QLQD_VALUE": null,
+          "SJHZ_KEY": null,
+          "SJHZ_VALUE": null,
+          "KZDJ_KEY": null,
+          "KZDJ_VALUE": null,
+          "KYDW_KEY": null,
+          "KYDW_VALUE": null,
+          "KYDW_MC": null,
+          "THDJ": null,
+          "DTFZSS": null,
+          "SFHTLJ": null,
+          "JSDWMC": null,
+          "SJDWMC": null,
+          "SGDWMC": null,
+          "JLDWMC": null,
+          "XJND": null,
+          "TCRQ": null,
+          "GYDW_KEY": null,
+          "GYDW_VALUE": null,
+          "JGDWMC": null,
+          "SFXZ_KEY": null,
+          "SFXZ_VALUE": null,
+          "PDDJ_KEY": null,
+          "PDDJ_VALUE": null,
+          "PDRQ": null,
+          "GZND": null,
+          "WGRQ": null,
+          "GZBW": null,
+          "GCXZ": null,
+          "SFBBZ": null,
+          "BH_KEY": null,
+          "BH_VALUE": null,
+          "BH_MC": null,
+          "JTGZ_KEY": null,
+          "JTGZ_VALUE": null,
+          "XZQH": null,
+          "BZ": null,
+          "PDDW": null,
+          "GZSGDW": null,
+          "BH_BW": null
+        },
+        "geometry": "POINT (116.09913438 39.96102633)",
+        "geometryType": "Point"
+      },
+      {
+        "attributes": {
+          "OBJECTID": "2",
+          "LXBM": "X019110109",
+          "WZLX": "2",
+          "DWDM": " ",
+          "DWMC": " ",
+          "LXMC": "西苑路",
+          "SXX": "2",
+          "GUID": "99277C90-C9AA-4E76-8FBF-CF2F9F674C55",
+          "ROADID": "50047382",
+          "SSLX": "9",
+          "MAPID": " ",
+          "KIND": " ",
+          "ZIPCODE": " ",
+          "TELEPHONE": " ",
+          "ADMINCODE": " ",
+          "DISPLAY_X": " ",
+          "DISPLAY_Y": " ",
+          "POI_ID": " ",
+          "IMPORTANCE": " ",
+          "VADMINCODE": " ",
+          "CHAINCODE": " ",
+          "PRIOR_AUTH": " ",
+          "LINKID": " ",
+          "SIDE": " ",
+          "PID": " ",
+          "TEL_TYPE": " ",
+          "FOOD_TYPE": " ",
+          "AIRPT_CODE": " ",
+          "OPEN_24H": " ",
+          "DATA_SRC": " ",
+          "MESH_ID": " ",
+          "POI_FLAG": " ",
+          "RATING": " ",
+          "NAME": " ",
+          "ADDRESS": " ",
+          "QLBM": "X019110109L0060",
+          "QLMC": "中门寺沟桥",
+          "QLZXZH": "4.9060000000",
+          "LXDM": "X019110109",
+          "QLDM": "X019110109L0060",
+          "SXXFX": "2",
+          "JSDJ_VALUE": null,
+          "QLQC": null,
+          "KJZC": null,
+          "DKZDKJ": null,
+          "KJZH": null,
+          "QLQK": null,
+          "QMJK": null,
+          "QLKJ_KEY": null,
+          "QLKJ_VALUE": null,
+          "SYNX_KEY": null,
+          "SYNX_VALUE": null,
+          "QLJG_KEY": null,
+          "QLJG_VALUE": null,
+          "QLCL_KEY": null,
+          "QLCL_VALUE": null,
+          "QLQD_KEY": null,
+          "QLQD_VALUE": null,
+          "SJHZ_KEY": null,
+          "SJHZ_VALUE": null,
+          "KZDJ_KEY": null,
+          "KZDJ_VALUE": null,
+          "KYDW_KEY": null,
+          "KYDW_VALUE": null,
+          "KYDW_MC": null,
+          "THDJ": null,
+          "DTFZSS": null,
+          "SFHTLJ": null,
+          "JSDWMC": null,
+          "SJDWMC": null,
+          "SGDWMC": null,
+          "JLDWMC": null,
+          "XJND": null,
+          "TCRQ": null,
+          "GYDW_KEY": null,
+          "GYDW_VALUE": null,
+          "JGDWMC": null,
+          "SFXZ_KEY": null,
+          "SFXZ_VALUE": null,
+          "PDDJ_KEY": null,
+          "PDDJ_VALUE": null,
+          "PDRQ": null,
+          "GZND": null,
+          "WGRQ": null,
+          "GZBW": null,
+          "GCXZ": null,
+          "SFBBZ": null,
+          "BH_KEY": null,
+          "BH_VALUE": null,
+          "BH_MC": null,
+          "JTGZ_KEY": null,
+          "JTGZ_VALUE": null,
+          "XZQH": null,
+          "BZ": null,
+          "PDDW": null,
+          "GZSGDW": null,
+          "BH_BW": null
+        },
+        "geometry": "POINT (116.118871 39.92672355)",
+        "geometryType": "Point"
+      },
+      {
+        "attributes": {
+          "OBJECTID": "3",
+          "LXBM": "X019110109",
+          "WZLX": "2",
+          "DWDM": " ",
+          "DWMC": " ",
+          "LXMC": "西苑路",
+          "SXX": "2",
+          "GUID": "0A60FB2A-0ABF-41D7-9432-2E99570B0CDB",
+          "ROADID": "50047382",
+          "SSLX": "9",
+          "MAPID": " ",
+          "KIND": " ",
+          "ZIPCODE": " ",
+          "TELEPHONE": " ",
+          "ADMINCODE": " ",
+          "DISPLAY_X": " ",
+          "DISPLAY_Y": " ",
+          "POI_ID": " ",
+          "IMPORTANCE": " ",
+          "VADMINCODE": " ",
+          "CHAINCODE": " ",
+          "PRIOR_AUTH": " ",
+          "LINKID": " ",
+          "SIDE": " ",
+          "PID": " ",
+          "TEL_TYPE": " ",
+          "FOOD_TYPE": " ",
+          "AIRPT_CODE": " ",
+          "OPEN_24H": " ",
+          "DATA_SRC": " ",
+          "MESH_ID": " ",
+          "POI_FLAG": " ",
+          "RATING": " ",
+          "NAME": " ",
+          "ADDRESS": " ",
+          "QLBM": "X019110109L0030",
+          "QLMC": "德露苑桥",
+          "QLZXZH": "4.8790000000",
+          "LXDM": "X019110109",
+          "QLDM": "X019110109L0030",
+          "SXXFX": "2",
+          "JSDJ_VALUE": null,
+          "QLQC": null,
+          "KJZC": null,
+          "DKZDKJ": null,
+          "KJZH": null,
+          "QLQK": null,
+          "QMJK": null,
+          "QLKJ_KEY": null,
+          "QLKJ_VALUE": null,
+          "SYNX_KEY": null,
+          "SYNX_VALUE": null,
+          "QLJG_KEY": null,
+          "QLJG_VALUE": null,
+          "QLCL_KEY": null,
+          "QLCL_VALUE": null,
+          "QLQD_KEY": null,
+          "QLQD_VALUE": null,
+          "SJHZ_KEY": null,
+          "SJHZ_VALUE": null,
+          "KZDJ_KEY": null,
+          "KZDJ_VALUE": null,
+          "KYDW_KEY": null,
+          "KYDW_VALUE": null,
+          "KYDW_MC": null,
+          "THDJ": null,
+          "DTFZSS": null,
+          "SFHTLJ": null,
+          "JSDWMC": null,
+          "SJDWMC": null,
+          "SGDWMC": null,
+          "JLDWMC": null,
+          "XJND": null,
+          "TCRQ": null,
+          "GYDW_KEY": null,
+          "GYDW_VALUE": null,
+          "JGDWMC": null,
+          "SFXZ_KEY": null,
+          "SFXZ_VALUE": null,
+          "PDDJ_KEY": null,
+          "PDDJ_VALUE": null,
+          "PDRQ": null,
+          "GZND": null,
+          "WGRQ": null,
+          "GZBW": null,
+          "GCXZ": null,
+          "SFBBZ": null,
+          "BH_KEY": null,
+          "BH_VALUE": null,
+          "BH_MC": null,
+          "JTGZ_KEY": null,
+          "JTGZ_VALUE": null,
+          "XZQH": null,
+          "BZ": null,
+          "PDDW": null,
+          "GZSGDW": null,
+          "BH_BW": null
+        },
+        "geometry": "POINT (116.11901211 39.92658626)",
+        "geometryType": "Point"
+      },
+      {
+        "attributes": {
+          "OBJECTID": "4",
+          "LXBM": "X906110109",
+          "WZLX": "2",
+          "DWDM": " ",
+          "DWMC": " ",
+          "LXMC": "石担路联络线",
+          "SXX": "2",
+          "GUID": "B81A9478-2525-4FFF-A954-638107CEAC40",
+          "ROADID": "248016",
+          "SSLX": "9",
+          "MAPID": " ",
+          "KIND": " ",
+          "ZIPCODE": " ",
+          "TELEPHONE": " ",
+          "ADMINCODE": " ",
+          "DISPLAY_X": " ",
+          "DISPLAY_Y": " ",
+          "POI_ID": " ",
+          "IMPORTANCE": " ",
+          "VADMINCODE": " ",
+          "CHAINCODE": " ",
+          "PRIOR_AUTH": " ",
+          "LINKID": " ",
+          "SIDE": " ",
+          "PID": " ",
+          "TEL_TYPE": " ",
+          "FOOD_TYPE": " ",
+          "AIRPT_CODE": " ",
+          "OPEN_24H": " ",
+          "DATA_SRC": " ",
+          "MESH_ID": " ",
+          "POI_FLAG": " ",
+          "RATING": " ",
+          "NAME": " ",
+          "ADDRESS": " ",
+          "QLBM": "X906110109L0020",
+          "QLMC": "引水渠快车道桥",
+          "QLZXZH": "0.2470000000",
+          "LXDM": "X906110109",
+          "QLDM": "X906110109L0020",
+          "SXXFX": "2",
+          "JSDJ_VALUE": null,
+          "QLQC": null,
+          "KJZC": null,
+          "DKZDKJ": null,
+          "KJZH": null,
+          "QLQK": null,
+          "QMJK": null,
+          "QLKJ_KEY": null,
+          "QLKJ_VALUE": null,
+          "SYNX_KEY": null,
+          "SYNX_VALUE": null,
+          "QLJG_KEY": null,
+          "QLJG_VALUE": null,
+          "QLCL_KEY": null,
+          "QLCL_VALUE": null,
+          "QLQD_KEY": null,
+          "QLQD_VALUE": null,
+          "SJHZ_KEY": null,
+          "SJHZ_VALUE": null,
+          "KZDJ_KEY": null,
+          "KZDJ_VALUE": null,
+          "KYDW_KEY": null,
+          "KYDW_VALUE": null,
+          "KYDW_MC": null,
+          "THDJ": null,
+          "DTFZSS": null,
+          "SFHTLJ": null,
+          "JSDWMC": null,
+          "SJDWMC": null,
+          "SGDWMC": null,
+          "JLDWMC": null,
+          "XJND": null,
+          "TCRQ": null,
+          "GYDW_KEY": null,
+          "GYDW_VALUE": null,
+          "JGDWMC": null,
+          "SFXZ_KEY": null,
+          "SFXZ_VALUE": null,
+          "PDDJ_KEY": null,
+          "PDDJ_VALUE": null,
+          "PDRQ": null,
+          "GZND": null,
+          "WGRQ": null,
+          "GZBW": null,
+          "GCXZ": null,
+          "SFBBZ": null,
+          "BH_KEY": null,
+          "BH_VALUE": null,
+          "BH_MC": null,
+          "JTGZ_KEY": null,
+          "JTGZ_VALUE": null,
+          "XZQH": null,
+          "BZ": null,
+          "PDDW": null,
+          "GZSGDW": null,
+          "BH_BW": null
+        },
+        "geometry": "POINT (116.0991374 39.96102388)",
+        "geometryType": "Point"
+      }
+    ],
+    "fields": [
+      {
+        "label": "",
+        "name": "objectid",
+        "type": "INTEGER"
+      },
+      {
+        "label": "",
+        "name": "LXBM",
+        "type": "NVARCHAR2"
+      },
+      {
+        "label": "",
+        "name": "WZLX",
+        "type": "NVARCHAR2"
+      },
+      {
+        "label": "",
+        "name": "DWDM",
+        "type": "NVARCHAR2"
+      },
+      {
+        "label": "",
+        "name": "DWMC",
+        "type": "NVARCHAR2"
+      },
+      {
+        "label": "",
+        "name": "lxmc",
+        "type": "NVARCHAR2"
+      },
+      {
+        "label": "",
+        "name": "sxx",
+        "type": "INTEGER"
+      },
+      {
+        "label": "",
+        "name": "GUID",
+        "type": "NVARCHAR2"
+      },
+      {
+        "label": "",
+        "name": "ROADID",
+        "type": "NVARCHAR2"
+      },
+      {
+        "label": "",
+        "name": "SSLX",
+        "type": "NVARCHAR2"
+      },
+      {
+        "label": "",
+        "name": "MAPID",
+        "type": "NVARCHAR2"
+      },
+      {
+        "label": "",
+        "name": "KIND",
+        "type": "NVARCHAR2"
+      },
+      {
+        "label": "",
+        "name": "ZIPCODE",
+        "type": "NVARCHAR2"
+      },
+      {
+        "label": "",
+        "name": "TELEPHONE",
+        "type": "NVARCHAR2"
+      },
+      {
+        "label": "",
+        "name": "ADMINCODE",
+        "type": "NVARCHAR2"
+      },
+      {
+        "label": "",
+        "name": "DISPLAY_X",
+        "type": "NVARCHAR2"
+      },
+      {
+        "label": "",
+        "name": "DISPLAY_Y",
+        "type": "NVARCHAR2"
+      },
+      {
+        "label": "",
+        "name": "POI_ID",
+        "type": "NVARCHAR2"
+      },
+      {
+        "label": "",
+        "name": "IMPORTANCE",
+        "type": "NVARCHAR2"
+      },
+      {
+        "label": "",
+        "name": "VADMINCODE",
+        "type": "NVARCHAR2"
+      },
+      {
+        "label": "",
+        "name": "CHAINCODE",
+        "type": "NVARCHAR2"
+      },
+      {
+        "label": "",
+        "name": "PRIOR_AUTH",
+        "type": "NVARCHAR2"
+      },
+      {
+        "label": "",
+        "name": "LINKID",
+        "type": "NVARCHAR2"
+      },
+      {
+        "label": "",
+        "name": "SIDE",
+        "type": "NVARCHAR2"
+      },
+      {
+        "label": "",
+        "name": "PID",
+        "type": "NVARCHAR2"
+      },
+      {
+        "label": "",
+        "name": "TEL_TYPE",
+        "type": "NVARCHAR2"
+      },
+      {
+        "label": "",
+        "name": "FOOD_TYPE",
+        "type": "NVARCHAR2"
+      },
+      {
+        "label": "",
+        "name": "AIRPT_CODE",
+        "type": "NVARCHAR2"
+      },
+      {
+        "label": "",
+        "name": "OPEN_24H",
+        "type": "NVARCHAR2"
+      },
+      {
+        "label": "",
+        "name": "DATA_SRC",
+        "type": "NVARCHAR2"
+      },
+      {
+        "label": "",
+        "name": "MESH_ID",
+        "type": "NVARCHAR2"
+      },
+      {
+        "label": "",
+        "name": "POI_FLAG",
+        "type": "NVARCHAR2"
+      },
+      {
+        "label": "",
+        "name": "RATING",
+        "type": "NVARCHAR2"
+      },
+      {
+        "label": "",
+        "name": "NAME",
+        "type": "NVARCHAR2"
+      },
+      {
+        "label": "",
+        "name": "ADDRESS",
+        "type": "NVARCHAR2"
+      },
+      {
+        "label": "",
+        "name": "QLBM",
+        "type": "NVARCHAR2"
+      },
+      {
+        "label": "",
+        "name": "QLMC",
+        "type": "NVARCHAR2"
+      },
+      {
+        "label": "",
+        "name": "QLZXZH",
+        "type": "NUMBER"
+      },
+      {
+        "label": "",
+        "name": "shape",
+        "type": "ST_GEOMETRY"
+      },
+      {
+        "label": "",
+        "name": "LXDM",
+        "type": "NVARCHAR2"
+      },
+      {
+        "label": "",
+        "name": "QLDM",
+        "type": "NVARCHAR2"
+      },
+      {
+        "label": "",
+        "name": "SXXFX",
+        "type": "INTEGER"
+      },
+      {
+        "label": "",
+        "name": "JSDJ_VALUE",
+        "type": "VARCHAR"
+      },
+      {
+        "label": "",
+        "name": "QLQC",
+        "type": "NUMBER"
+      },
+      {
+        "label": "",
+        "name": "KJZC",
+        "type": "NUMBER"
+      },
+      {
+        "label": "",
+        "name": "DKZDKJ",
+        "type": "NUMBER"
+      },
+      {
+        "label": "",
+        "name": "KJZH",
+        "type": "VARCHAR"
+      },
+      {
+        "label": "",
+        "name": "QLQK",
+        "type": "NUMBER"
+      },
+      {
+        "label": "",
+        "name": "QMJK",
+        "type": "NUMBER"
+      },
+      {
+        "label": "",
+        "name": "QLKJ_KEY",
+        "type": "VARCHAR"
+      },
+      {
+        "label": "",
+        "name": "QLKJ_VALUE",
+        "type": "VARCHAR"
+      },
+      {
+        "label": "",
+        "name": "SYNX_KEY",
+        "type": "VARCHAR"
+      },
+      {
+        "label": "",
+        "name": "SYNX_VALUE",
+        "type": "VARCHAR"
+      },
+      {
+        "label": "",
+        "name": "QLJG_KEY",
+        "type": "VARCHAR"
+      },
+      {
+        "label": "",
+        "name": "QLJG_VALUE",
+        "type": "VARCHAR"
+      },
+      {
+        "label": "",
+        "name": "QLCL_KEY",
+        "type": "VARCHAR"
+      },
+      {
+        "label": "",
+        "name": "QLCL_VALUE",
+        "type": "VARCHAR"
+      },
+      {
+        "label": "",
+        "name": "QLQD_KEY",
+        "type": "VARCHAR"
+      },
+      {
+        "label": "",
+        "name": "QLQD_VALUE",
+        "type": "VARCHAR"
+      },
+      {
+        "label": "",
+        "name": "SJHZ_KEY",
+        "type": "VARCHAR"
+      },
+      {
+        "label": "",
+        "name": "SJHZ_VALUE",
+        "type": "VARCHAR"
+      },
+      {
+        "label": "",
+        "name": "KZDJ_KEY",
+        "type": "VARCHAR"
+      },
+      {
+        "label": "",
+        "name": "KZDJ_VALUE",
+        "type": "VARCHAR"
+      },
+      {
+        "label": "",
+        "name": "KYDW_KEY",
+        "type": "VARCHAR"
+      },
+      {
+        "label": "",
+        "name": "KYDW_VALUE",
+        "type": "VARCHAR"
+      },
+      {
+        "label": "",
+        "name": "KYDW_MC",
+        "type": "VARCHAR"
+      },
+      {
+        "label": "",
+        "name": "THDJ",
+        "type": "VARCHAR"
+      },
+      {
+        "label": "",
+        "name": "DTFZSS",
+        "type": "VARCHAR"
+      },
+      {
+        "label": "",
+        "name": "SFHTLJ",
+        "type": "VARCHAR"
+      },
+      {
+        "label": "",
+        "name": "jsdwmc",
+        "type": "VARCHAR"
+      },
+      {
+        "label": "",
+        "name": "sjdwmc",
+        "type": "VARCHAR"
+      },
+      {
+        "label": "",
+        "name": "sgdwmc",
+        "type": "VARCHAR"
+      },
+      {
+        "label": "",
+        "name": "jldwmc",
+        "type": "VARCHAR"
+      },
+      {
+        "label": "",
+        "name": "xjnd",
+        "type": "VARCHAR"
+      },
+      {
+        "label": "",
+        "name": "tcrq",
+        "type": "VARCHAR"
+      },
+      {
+        "label": "",
+        "name": "gydw_key",
+        "type": "VARCHAR"
+      },
+      {
+        "label": "",
+        "name": "gydw_value",
+        "type": "VARCHAR"
+      },
+      {
+        "label": "",
+        "name": "jgdwmc",
+        "type": "VARCHAR"
+      },
+      {
+        "label": "",
+        "name": "SFXZ_KEY",
+        "type": "VARCHAR"
+      },
+      {
+        "label": "",
+        "name": "SFXZ_VALUE",
+        "type": "VARCHAR"
+      },
+      {
+        "label": "",
+        "name": "pddj_key",
+        "type": "VARCHAR"
+      },
+      {
+        "label": "",
+        "name": "pddj_value",
+        "type": "VARCHAR"
+      },
+      {
+        "label": "",
+        "name": "pdrq",
+        "type": "VARCHAR"
+      },
+      {
+        "label": "",
+        "name": "gznd",
+        "type": "VARCHAR"
+      },
+      {
+        "label": "",
+        "name": "wgrq",
+        "type": "VARCHAR"
+      },
+      {
+        "label": "",
+        "name": "gzbw",
+        "type": "VARCHAR"
+      },
+      {
+        "label": "",
+        "name": "gcxz",
+        "type": "VARCHAR"
+      },
+      {
+        "label": "",
+        "name": "SFBBZ",
+        "type": "VARCHAR"
+      },
+      {
+        "label": "",
+        "name": "BH_KEY",
+        "type": "VARCHAR"
+      },
+      {
+        "label": "",
+        "name": "bh_value",
+        "type": "VARCHAR"
+      },
+      {
+        "label": "",
+        "name": "bh_mc",
+        "type": "VARCHAR"
+      },
+      {
+        "label": "",
+        "name": "JTGZ_KEY",
+        "type": "VARCHAR"
+      },
+      {
+        "label": "",
+        "name": "JTGZ_VALUE",
+        "type": "VARCHAR"
+      },
+      {
+        "label": "",
+        "name": "xzqh",
+        "type": "VARCHAR"
+      },
+      {
+        "label": "",
+        "name": "bz",
+        "type": "VARCHAR"
+      },
+      {
+        "label": "",
+        "name": "pddw",
+        "type": "VARCHAR"
+      },
+      {
+        "label": "",
+        "name": "GZSGDW",
+        "type": "VARCHAR"
+      },
+      {
+        "label": "",
+        "name": "BH_BW",
+        "type": "VARCHAR"
+      }
+    ],
+    "layerName": "V_GL_QL",
+    "max": false,
+    "maxRecordCount": 1000
+  },
+  "msg": null,
+  "success": true
+}

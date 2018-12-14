@@ -1,0 +1,159 @@
+{
+  "input": [
+    {
+      "name": "lxbm",
+      "label": "路线编码",
+      "type": "single",
+      "express": "="
+    },
+    {
+      "name": "lxmc",
+      "label": "路线名称",
+      "type": "single",
+      "express": "LIKE"
+    },
+    {
+      "name": "xmmc",
+      "label": "项目名称",
+      "type": "single",
+      "express": "LIKE"
+    },
+    {
+      "name": "xmnf",
+      "label": "项目年份",
+      "type": "single",
+      "express": "="
+    }
+  ],
+  "check": [
+    {
+      "name": "xzdj",
+      "label": "行政等级",
+      "type": "single",
+      "child": [
+        {
+          "title": "",
+          "child": [
+            {
+              "name": "X",
+              "label": "县道"
+            },
+            {
+              "name": "Y",
+              "label": "乡道"
+            },
+            {
+              "name": "Z",
+              "label": "专道"
+            },
+            {
+              "name": "C",
+              "label": "村道"
+            }
+          ]
+        }
+      ],
+      "express": "IN"
+    },
+    {
+      "name": "gylx",
+      "label": "管养类型",
+      "type": "single",
+      "child": [
+        {
+          "title": "",
+          "child": [
+            {
+              "name": "0",
+              "label": "公路局管养"
+            },
+            {
+              "name": "1",
+              "label": "交通局运输"
+            }
+          ]
+        }
+      ],
+      "express": "IN"
+    },
+    {
+      "name": "xmlx",
+      "label": "项目类型",
+      "type": "single",
+      "child": [
+        {
+          "title": "",
+          "child": [
+            {
+              "name": "0",
+              "label": "县道升级改造"
+            },
+            {
+              "name": "1",
+              "label": "县道升级改造"
+            },
+            {
+              "name": "2",
+              "label": "县道升级改造"
+            },
+            {
+              "name": "3",
+              "label": "县道升级改造"
+            }
+          ]
+        }
+      ],
+      "express": "IN"
+    },
+    {
+      "name": "sfpkx",
+      "label": "是否贫困县",
+      "type": "single",
+      "child": [
+        {
+          "title": "",
+          "child": [
+            {
+              "name": false,
+              "label": "否"
+            },
+            {
+              "name": true,
+              "label": "是"
+            }
+          ]
+        }
+      ],
+      "express": "NULL"
+    },
+    {
+      "name": "jsxz",
+      "label": "建设性质",
+      "type": "single",
+      "child": [
+        {
+          "title": "",
+          "child": [
+            {
+              "name": "0",
+              "label": "新建"
+            },
+            {
+              "name": "1",
+              "label": "改建"
+            },
+            {
+              "name": "2",
+              "label": "新改建"
+            },
+            {
+              "name": "3",
+              "label": "其他"
+            }
+          ]
+        }
+      ],
+      "express": "IN"
+    }
+  ]
+}
