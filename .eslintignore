@@ -1,0 +1,12 @@
+/build/
+/config/
+/dist/
+/*.js
+/src/assets/js/*.js
+src/integratedQuery/assets/js/map/*.js
+src/integratedQuery/assets/js/utils/*.js
+src/components/map.vue
+src/views/yingji/index.vue
+src/map/popover/src/roadCondition.vue
+static/
+src/assets/js/util/*.js
